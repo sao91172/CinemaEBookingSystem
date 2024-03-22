@@ -1,0 +1,20 @@
+.carousel-container {
+    height: 500px;
+}
+
+.movie-carousel-poster {
+    height: 90%;
+}
+
+.carousel-slide-container {
+    display: flex;
+    height: 460px;
+    background-color: bisque;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.movie-carousel-details {
+    font-size: 50px;
+}
+

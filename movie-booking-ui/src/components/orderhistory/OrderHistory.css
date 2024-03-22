@@ -1,0 +1,90 @@
+html {
+  background-color: #000217; 
+}
+
+.order-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.order-table th {
+  padding: 8px;
+  text-align: left;
+
+}
+.order-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.order-table th {
+  background-color: #000217;
+  color: white;
+}
+
+.total {
+  text-align: right;
+  margin-top: 10px;
+  font-weight: bold;
+  margin-right: 40px;
+  font-size: 20px;
+
+}
+
+button {
+  background-color: #EC8A00;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+.ORDER-HISTORY {
+  background-color: #000217;
+  display: flex;
+  flex-direction: column; /* Use column layout on small screens */
+  align-items: center; /* Center content vertically */
+  width: 100%;
+}
+
+  
+  /* Container for content */
+ 
+.ORDER-HISTORY .div {
+  background-color: #000217;
+  width: 100%; /* Take up the full width of the parent container */
+position: relative;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .ORDER-HISTORY {
+      flex-direction: column; /* Use column layout on smaller screens */
+  }
+}
+/* Responsive styles for medium screens (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .ORDER-HISTORY .div {
+      width: 80%; /* Adjust the width of the content */
+  }
+
+  /* Add other responsive styles as needed */
+}
+
+/* Responsive styles for large screens (e.g., desktops) */
+@media (min-width: 1024px) {
+  .ORDER-HISTORY .div {
+      width: 60%; /* Adjust the width of the content */
+  }
+
+}
+
+ 

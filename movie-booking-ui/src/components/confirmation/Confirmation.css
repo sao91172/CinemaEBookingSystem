@@ -1,0 +1,94 @@
+.CONFIRMATION {
+    background-color: #000217;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .CONFIRMATION .p {
+    position: absolute;
+    margin-top: 350px;
+
+  }
+
+  .ordernumber {
+    position: absolute;
+    padding: 10px 25px 10px 25px;
+    font-size: 48px;
+    background-color: #c4c4c433;
+    border-radius: 10px;
+    margin-top: 430px;
+  }
+  
+  
+  .CONFIRMATION .text-wrapper-5 {
+    width: 497px;
+    top: 29px;
+    left: 226px;
+    position: absolute;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 64px;
+  }
+  
+  .CONFIRMATION .btn {
+    font-size: 100%;
+    width: 35%;
+    background-color: #ec8a00;
+    position: absolute;
+    border-radius: 10px;
+    margin-top: 540px;
+    color: #ffffff;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 600;
+  }
+  .CONFIRMATION .btn-2 {
+    font-size: 100%;
+    width: 35%;
+    background-color: #ec8a00;
+    position: absolute;
+    border-radius: 10px;
+    margin-top: 560px;
+    color: #ffffff;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 600;
+    margin-top: 670px;
+    padding: 10px;
+  }
+
+  .CONFIRMATION .btn:hover, .btn-2:hover {
+    background-color: #ec7200;
+  }
+  .CONFIRMATION .btn-2:active {
+    background-color: #000217;
+    border: #ffffff;
+    border-style: solid;
+
+
+  }
+
+  .CONFIRMATION .text-wrapper {
+    width: 100%;
+    top: auto;
+    left: auto;
+    position: absolute;
+    margin-top: 40px;
+  }
+  
+  .CONFIRMATION .group-wrapper {
+    width: 15%;
+    height: auto;
+    margin-top: 100px;
+    background-color: #ffffff;
+
+  }

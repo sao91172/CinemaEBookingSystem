@@ -1,0 +1,70 @@
+.seats-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .seat-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .seat {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 5px;
+    background-color: #444451;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+  }
+  
+  .screen {
+    background-color: white;
+    height: 40px;
+    width: 20%;
+    margin: 20px 0;
+    transform: rotateX(-45deg);
+    box-shadow: 0 5px 10px white;
+  }
+
+  .legend {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+  
+  .legend-item {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    font-size: 16px;
+  }
+  
+  .available {
+    color: #fff;
+    background-color: #444451;
+  }
+  
+  .selected {
+    color: #fff;
+    background-color: #EC8A00;
+  }
+  
+  .occupied {
+    color: #fff;
+    background-color: #d9534f;
+  }
+  
+  .proceed-button {
+    color: white;
+    background-color: #EC8A00;
+    margin: 15px 0;
+  }
+

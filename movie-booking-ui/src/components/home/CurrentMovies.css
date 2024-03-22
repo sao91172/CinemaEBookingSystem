@@ -1,0 +1,67 @@
+.tickets-btn {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  line-height: 16px;
+  padding: 7px;
+  border-radius: 50px;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  background-image: linear-gradient(to right, rgb(236, 138, 0) 0%, rgb(236, 184, 79) 100%);
+  box-shadow: rgba(0, 0, 0, 0) 5px 5px 15px 5px;
+  border: 1px solid rgb(0, 0, 0);
+  display: inline-block;
+}
+
+.tickets-btn:hover {
+  background: #EC8A00;
+}
+
+.tickets-btn:active {
+  background: #ECB84F;
+}
+
+.now-playing-container {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.movie-row {
+  display: flex;
+  justify-content: left;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.movie-card {
+  width: calc(25% - 20px);
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.now-playing-header-text {
+  text-decoration: underline;
+  margin: 10px;
+  text-align: left;
+  text-wrap: none;
+  width: 50%;
+}
+
+.now-playing-header-container {
+  display: flex;
+  width: 100%;
+}
+
+.now-playing-search-container {
+  display: flex;
+  width: 50%;
+  justify-content: right;
+  align-items: center;
+}
+

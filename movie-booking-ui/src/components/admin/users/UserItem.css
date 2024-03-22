@@ -1,0 +1,87 @@
+
+.user-item {
+    margin: 1rem;
+    width: calc(45% - 2rem);
+    min-width: 17.5rem;
+  }
+  
+  .user-item a {
+    display: block;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+    background: white;
+  }
+  
+  .user-item a:hover,
+  .user-item a:active {
+    background: white;
+  }
+  
+  .user-item__content {
+    padding: 0;
+  }
+  .user-item__info {
+    background-color: #0C1022;
+  }
+  
+  .user-item__info h2 {
+    font-size: 1.5rem;
+    margin: 0 0 0.5rem 0;
+    font-weight: normal;
+    color: white;
+  }
+  
+  .user-item:hover h2,
+  .user-item:active h2,
+  .user-item:hover h3,
+  .user-item:active h3 {
+    color: #EC8A00;
+  }
+  
+  .user-item__info h3 {
+    margin: 0;
+  }
+  
+  .make-admin-button,
+.revoke-admin-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+  margin-right: 1rem; /* Adjust as needed */
+}
+
+.make-admin-button:hover,
+.revoke-admin-button:hover {
+  background-color: #45a049;
+}
+
+.revoke-admin-button {
+  background-color: #f44336;
+}
+
+.revoke-admin-button:hover {
+  background-color: #d32f2f;
+}
+
+  .delete-button {
+    position: absolute;
+    top: 10.5rem; /* Adjust as needed */
+    right: 0.5rem; /* Adjust as needed */
+    background-color: rgb(246, 132, 19);
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: rgb(224, 116, 28);
+}
+
+  

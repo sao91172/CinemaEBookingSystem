@@ -1,0 +1,218 @@
+.TICKETS {
+  background-color: #000217;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-family: "Montserrat-SemiBold", "Helvetica";
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.TICKETS .p {
+  font-size: 44px;
+  position: absolute;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+
+}
+.back-arrow {
+  position: absolute;
+  margin-right: 744px;
+  margin-top: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.TICKETS .x-icon {
+  position: absolute;
+  margin-left: 744px;
+  margin-top: -5px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  
+}
+.TICKETS .img-wrapper {
+  position: absolute;
+  margin-top: 145px;
+  margin-right: 700px;
+  display: inline-block;
+  
+}
+
+.TICKETS .poster-img {
+  width: 310px;
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.TICKETS .title-year-rating {
+  position: absolute;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: calc(10px + 2vmin);
+  margin-top: 650px;
+  margin-right: 700px;
+
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.TICKETS .span {
+  font-weight: 700;
+}
+
+.TICKETS .minus-sign1 {
+  position: absolute;
+  border-radius: 59px/58.5px;
+  border: 5px solid;
+  border-color: #ffffff;
+  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+}
+
+.TICKETS .minus-sign2 {
+  position: absolute;
+  border-radius: 59px/58.5px;
+  border: 5px solid;
+  border-color: #ffffff;
+  margin-top: 340px;
+  display: flex;
+  flex-direction: column;
+}
+.TICKETS .minus-sign3 {
+  position: absolute;
+  border-radius: 59px/58.5px;
+  border: 5px solid;
+  border-color: #ffffff;
+  margin-top: 540px;
+  display: flex;
+  flex-direction: column;
+}
+
+.TICKETS .overlap-group {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+  /* div class for adult*/
+.TICKETS .ticket-types-adult {
+position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-top: 170px;
+  margin-left: 730px;
+  justify-content: center;
+  text-align: center;
+}
+
+.TICKETS .ticket-type-header {
+  position: absolute;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  font-size: 35px;
+
+
+}
+
+.TICKETS .ticket-type-price-adult {
+  position: absolute;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  font-size: 23px;
+  margin-top: 105px;
+  margin-left: 15px;
+  /* display: flex;
+  flex: 1;
+  flex-direction: column;
+  */
+}
+
+.TICKETS .ticket-type-price {
+  position: absolute;
+  display: flex;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  font-size: 23px;
+  margin-top: 160px;
+  margin-left: 15px;
+}
+
+  /* div class for child */
+.TICKETS .ticket-types-child {
+  position:absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+    margin-left: 730px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .TICKETS .ticket-type-subheader {
+    display: flex;
+    position:relative;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffffff80;
+    max-width: 314px;
+    margin-top: 105px;
+    text-align: center;
+
+    
+  }
+
+  /* div class for senior */
+  .TICKETS .ticket-types-senior {
+    position:absolute;
+      display: flex;
+      flex-direction: column;
+      margin-top: 500px;
+      margin-left: 730px;
+      justify-content: center;
+      text-align: center;
+    }
+
+.TICKETS .text-wrapper-14 {
+  position: absolute;
+  display: flex;
+  margin-top: 700px;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff8f;
+  font-size: 23px;
+}
+
+
+.TICKETS .input {
+  position: absolute;
+  display: flex;
+  padding-inline: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 700px;
+  margin-left: 640px;
+  background-color: #ec8a00;
+  border-radius: 10px;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}

@@ -1,0 +1,65 @@
+  
+
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .payment-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: 30px;
+  }
+  
+  .input-group label {
+    width: 150px; 
+    text-align: right;
+    margin-right: 10px;
+    color: #EC8A00;
+    font-size: 15px;
+    font-weight:bold;
+  }
+  
+  .edit-profile {
+    display:flex;
+    margin-bottom: 40px;
+    font-size: 40px;
+    margin-left: 100px;
+    color: white;
+  }
+  
+  .checkout {
+    display: flex;
+    margin-left: 380px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+
+  .edit-profile-btn {
+   width: 150px;
+   
+  }
+
+  .edit-profile-btn-grp {
+    display: flex;
+    margin-left: 200px;
+    
+  }
+
+  .password-btn {
+    
+  }
+  .edit-pass-btn {
+    
+    margin-left: 20px;
+    width: 150px;
+  }
+

@@ -1,0 +1,46 @@
+.login-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #161823;
+}
+
+.login-form-content {
+
+}
+
+.web-title {
+    color: white;
+}
+
+.login-form {
+    width: 400px;
+    background-color: #141e4b;
+    padding: 20px;
+    box-shadow: rgba(110, 110, 110, 0.737) 1px 1px 10px;
+    text-align: start;
+}
+
+label {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.forgot-password-link {
+    padding-bottom: 20px;
+    text-align: center;
+    color: #EC8A00;
+}
+
+.register-link {
+    padding-top: 20px;
+    text-align: center;
+    color: #EC8A00;
+}
+
+h3 {
+    text-align: center;
+}

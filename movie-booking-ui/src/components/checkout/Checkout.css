@@ -1,0 +1,99 @@
+html {
+    background-color: #000217; 
+}
+.checkout-container {    
+    border: 1px solid #fff;
+    background-color: #222529;
+    color: white;
+    
+  }
+  
+  .ticket-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .ticket-table th,
+  .ticket-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .ticket-table th {
+    background-color: #222529;
+    color: white;
+  }
+  
+  .total {
+    text-align: right;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-right: 40px;
+    font-size: 20px;
+
+  }
+  
+  button {
+    background-color: #EC8A00;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .payment-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: 30px;
+  }
+  
+  .input-group label {
+    width: 150px; 
+    text-align: right;
+    margin-right: 10px;
+    color: white;
+  }
+  
+  .payment-input {
+    width: 300px; 
+  }
+
+  .payment {
+    display:flex;
+    margin-bottom: 40px;
+    font-size: 40px;
+    margin-left: 100px;
+  }
+  
+  .checkout {
+    display: flex;
+    margin-left: 380px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+
+
+ 
+
+ 
+
+
+
+
+  

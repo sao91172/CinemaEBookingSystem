@@ -1,0 +1,19 @@
+.home-container {
+    background-color: #161823;
+    color: white;
+}
+
+.current-movies-container {
+    width: 80%;
+    left: 0;
+    padding: 5px;
+}
+
+.movies-container {
+    display: flex;
+}
+
+.future-movies-container {
+    width: 30%;
+    padding: 5px;
+}
